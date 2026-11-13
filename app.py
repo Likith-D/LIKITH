@@ -17,3 +17,17 @@ def test_add(self):
 def test_multiply(self):
   self.assertEqual(multiply(6,4),24)
   
+if __name__  "__main__":
+
+  print("Student calculator Apllication")
+  print("Addition:",add(20,20))
+  print("Subtraction :",subtract(20,10))
+  print("Multiplication:", multiply(5,4))
+
+  print("\nExecuting Automated Tests...\n")
+  unittest.main(argv=['first-arg-is-ignored'],exit=False)
+        
+  
+
+
+    
